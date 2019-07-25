@@ -1,6 +1,5 @@
 # Developer's Load Map
 
-
 <details>
 <summary>Front-end</summary>
 <div markdown="1">
@@ -62,13 +61,13 @@
 
  - `CSS`
 
- - Methodologles : css 아키텍처
-   - `SUITCSS`
-   - `BEM`
-   - `OOCSS`
-   - `SMACSS`
-   - `Systematic CSS`
-   - `Dive Deep CSS3` : https://estelle.github.io/cssdeepdive/#slide1
+	- Methodologles : css 아키텍처
+       - `SUITCSS`
+       - `BEM`
+      - `OOCSS`
+      - `SMACSS`
+      - `Systematic CSS`
+      - `Dive Deep CSS3` : https://estelle.github.io/cssdeepdive/#slide1
  - `SVG`
    - `D3` : D3 또는 Data-Driven Documents)는 웹브라우저 상에서 동적이고 인터렉티브한 정보시각화를 구현하기 위한 자바스크립트 라이브러리
  - `Javascript`
