@@ -228,13 +228,13 @@ Behavioral Pattern
 
 - `Web Server`
 	- `Caddy` : Caddy 웹 서버로 명확 해지며, Go로 작성된 대부분 공개 소스 인 HTTP/2 지원 **웹 서버** 입니다. HTTP 기능을 위해 Go 표준 라이브러리를 사용합니다. Caddy의 가장 주목할만한 기능 중 하나는 기본적으로 HTTPS를 활성화하는 것
-	- `Apache`
-	- `Nginx`
-- `RESTful APIs`
+	- `Apache` : 아파치 **HTTP** 서버(영어: Apache HTTP Server)는 아파치 소프트웨어 재단에서 관리하는 **HTTP 웹 서버**이다. BSD, 리눅스 등 유닉스 계열 뿐 아니라 마이크로소프트 윈도우나 노벨 넷웨어 같은 기종에서도 운용할 수 있다.
+	- `Nginx` : Nginx는 **웹 서버 소프트웨어** 로, 가벼움과 높은 성능을 목표로 한다. 웹 서버, 리버스 프록시 및 메일 프록시 기능을 가짐.
+- `RESTful APIs` : REST 기반으로 서비스 API를 구현한 것, 최근 OpenAPI(누구나 사용할 수 있도록 공개된 API: 구글 맵, 공공 데이터 등), 마이크로 서비스(하나의 큰 애플리케이션을 여러 개의 작은 애플리케이션으로 쪼개어 변경과 조합이 가능하도록 만든 아키텍처) 등을 제공하는 업체 대부분은 REST API를 제공한다.
 - `Read about MVC`
 - `Authentication`
-	- `JSON Web Token(JWT)`
-	- `OAuth 2.0`
+	- `JSON Web Token(JWT)` :  웹표준 (RFC 7519) 으로서 두 개체에서 JSON 객체를 사용하여 가볍고 자가수용적인 (self-contained) 방식으로 정보를 안전성 있게 전달해줍니다.
+	- `OAuth 2.0` : **외부 서비스(third-party application)의 인증 및 권한부여를 관리하는 범용 프레임워크** 입니다. OAuth 기반 서비스의 API를 호출을 할 때에는, HTTP 헤더에 `access token`을 포함하여 요청을 보내게 됩니다. 서비스는 `access token`을 검사하면서 이 요청이 유효한지 판단하여 적절한 결과를 응답
 - `SOLID`
 	|한글|영어|설명|
 	|:---:|:---:|:---:|
@@ -278,13 +278,28 @@ Behavioral Pattern
 			> - 데이터베이스, 캐시, 메세지 브로커 등으로 사용됨
 			> - 지원언어: C, Go, Java, Nodejs, Lua, PHP, Python, R, Ruby 등 다수
 	- Relational Databases
-		- `Oracle` : 
+		- `Oracle`
 			> - 오라클에서 만든 DB[1]
 			> - 관계형DBMS의 하나
 		- `PostgreSQL`
+			> - 객체-관계형 DBMS
+			> - 오픈 소스, BSD 라이센스
+			> - 주요 운영체제에서 동작 (Linux, Unix(AIX, BSD, HP-UX, SGI IRIX, Mac OS X, Solaris, Tru64) Windows)
+			> - 문자, 이미지, 소리, 비디오 등을 지원함
+			> - 다양한 프로그래밍 인터페이스 지원 (C, C++, Java, Perl, Python, Ruby, Tcl)
+			> - 기본포트: 5432
 		- `MariaDB`
+			> - MariaDB는 오픈 소스의 관계형 데이터베이스 관리 시스템
+			> - MySQL과 동일한 소스 코드를 기반
+			> - GPL v2 라이선스를 따름
+			> - 오라클 소유의 현재 불확실한 MySQL의 라이선스 상태에 반발하여 만들어짐
 		- `MySQL`
+			> - 세계에서 가장 많이 쓰이는 오픈 소스의 관계형 데이터베이스 관리 시스템
+			> - **다중 스레드, 다중 사용자, 구조질의어** 형식의 데이터베이스 관리 시스템
+			> - **오라클** 이 관리 및 지원하고 있으며, Qt처럼 이중 라이선스가 적용
 		- `MSSQL`
+			> - 마이크로소프트 SQL 서버(영어: Microsoft SQL Server)
+			> - 마이크로소프트가 1989년 사이베이스(Sybase)를 기반으로 **개발한 관계형 데이터베이스**이다.
 	- NoSQL DataBases
 		- `RedisMongoDB`
 		- `Cassandra`
