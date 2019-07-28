@@ -300,9 +300,10 @@ Behavioral Pattern
 		- `MSSQL`
 			> - 마이크로소프트 SQL 서버(영어: Microsoft SQL Server)
 			> - 마이크로소프트가 1989년 사이베이스(Sybase)를 기반으로 **개발한 관계형 데이터베이스**이다.
-	- NoSQL DataBases
-		- `RedisMongoDB`
-		- `Cassandra`
+	- NoSQL DataBases :  단순 검색 및 추가 작업을 위한 매우 최적화된 키 값 저장 공간으로, 레이턴시와 스루풋과 관련하여 상당한 성능 이익을 내는 것이 목적
+		- `Redis` : 빠른 오픈 소스 인 메모리 키 값 데이터 구조 스토어이다. Redis는 다양한 인 메모리 데이터 구조 집합을 제공하므로 다양한 사용자 정의 애플리케이션을 진짜 손쉽게 생성할 수 있다
+		- `MongoDB` : 도큐먼트 지향 데이터 베이스, 기본적으로 bson데이터구조(Json과 비슷한 구조)
+		- `Cassandra` : 자유-오픈 소스 분산형 NoSQL 데이터베이스 관리 시스템의 하나로, 단일 장애점 없이 고성능을 제공하면서 수많은 서버 간의 대용량의 데이터를 관리하기 위해 설계
 		- `RethinkDB`
 		- `Couchbase`
 		
