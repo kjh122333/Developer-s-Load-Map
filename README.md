@@ -236,13 +236,14 @@ Behavioral Pattern
 	- `JSON Web Token(JWT)` :  웹표준 (RFC 7519) 으로서 두 개체에서 JSON 객체를 사용하여 가볍고 자가수용적인 (self-contained) 방식으로 정보를 안전성 있게 전달해줍니다.
 	- `OAuth 2.0` : **외부 서비스(third-party application)의 인증 및 권한부여를 관리하는 범용 프레임워크** 입니다. OAuth 기반 서비스의 API를 호출을 할 때에는, HTTP 헤더에 `access token`을 포함하여 요청을 보내게 됩니다. 서비스는 `access token`을 검사하면서 이 요청이 유효한지 판단하여 적절한 결과를 응답
 - `SOLID`
-	|한글|영어|설명|
-	|:---:|:---:|:---:|
-	|단일 책임 | Single responsibility | 하나의 클래스는 하나의 역할을 담당하도록 함|
-	|개방 폐쇄 원칙 | Open/closed principle | 확장에는 개방적, 수정에는 폐쇄적|
-	|리스코프 교체 | Liskov substitution | 객체는 subtype에 관계없이 대체 가능해야 함|
-	|인터페이스 분리 | Interface segregation | 다목적 인터페이스 1개보다 상황에 맞는 |다양한 인터페이스 권장|
-	|의존성 역전 | Dependency inversion | 상위 모듈이 하위 모듈에 의존하면 안됨 |
+| 두문자 |약어|개념| 
+|:---:|:---:|:---:| 
+| S |SRP|`단일 책임 원칙 (Single responsibility principle)` 한 클래스는 하나의 책임만 가져야 한다.| 
+| O |OCP|`개방-폐쇄 원칙 (Open/closed principle)`    “소프트웨어 요소는 확장에는 열려 있으나 변경에는 닫혀 있어야 한다.”|
+|L|LSP|`리스코프 치환 원칙 (Liskov substitution principle)` “프로그램의 객체는 프로그램의 정확성을 깨뜨리지 않으면서 하위 타입의 인스턴스로 바꿀 수 있어야 한다.” 계약에 의한 설계를 참고하라.|
+|I|ISP|	`인터페이스 분리 원칙 (Interface segregation principle)`“특정 클라이언트를 위한 인터페이스 여러 개가 범용 인터페이스 하나보다 낫다.”|
+|D|DIP|`의존관계 역전 원칙 (Dependency inversion principle)` 프로그래머는 “추상화에 의존해야지, 구체화에 의존하면 안된다.” 의존성 주입은 이 원칙을 따르는 방법 중 하나다.|
+
 - `YAGNI` : ***You aren't gonna need it : 그건 필요하지 않을거다***  
 	> - 당장 필요하지 않은 것은 미리 구현하지 말자
 	> - 실제로 코드가 필요하기 전까지는 해당 코드를 작성하지 말자
