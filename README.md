@@ -311,9 +311,9 @@ Behavioral Pattern
 		
 		
 - `Search Engines`
-	- `Slor`
-	- `Sphinx`
-	- `ElasticSearch`
+	-  `Slor` : Apache Lucene 프로젝트에서 Java로 작성된 오픈 소스 엔터프라이즈 검색 플랫폼입니다. 주요 기능으로는 전체 텍스트 검색, 히트 하이라이트, 패싯 검색, 실시간 인덱싱, 동적 클러스터링, 데이터베이스 통합, NoSQL 기능 및 풍부한 문서 처리 기능
+	- `Sphinx` : MySQL이 like 문으로 힘들게 데이터를 검색하는 반면, Sphinx를 사용하면 빠르고, 정확한 결과값을 내주기 때문에 사용
+	- `ElasticSearch` : 루씬( 자바 언어로 이루어진 정보 검색 라이브러리 자유-오픈 소스 소프트웨어 ) 기반의 검색 엔진이다. HTTP 웹 인터페이스와 스키마에서 자유로운 JSON 문서와 함께 분산 멀티테넌트 지원 전문 검색 엔진을 제공한다. 일래스틱서치는 자바로 개발
 - `GOF Design Patterns`
 - `Architectural Patterns`
 - `Give DDD a shot`
