@@ -319,7 +319,7 @@ Behavioral Pattern
 - `Give DDD a shot`
 - `Learn different testing techniques`
 
-
+JSON은 속성-값 쌍 또는 "키-값 쌍"으로 이루어진 데이터 오브젝트를 전달하기 위해 인간이 읽을 수 있는 텍스트를 사용하는 개방형 표준 포맷이다. 비동기 브라우저/서버 통신 을 위해, 넓게는 XML을 대체하는 주요 데이터 포맷
 
 </div>
 </details>
